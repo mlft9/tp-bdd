@@ -1,0 +1,702 @@
+[
+  {
+    "sp_id": 1,
+    "supplier_id": 6,
+    "product_id": 45,
+    "delivery_days": 4,
+    "unit_price": 172.76
+  },
+  {
+    "sp_id": 2,
+    "supplier_id": 2,
+    "product_id": 31,
+    "delivery_days": 8,
+    "unit_price": 90.61
+  },
+  {
+    "sp_id": 3,
+    "supplier_id": 15,
+    "product_id": 23,
+    "delivery_days": 10,
+    "unit_price": 369.42
+  },
+  {
+    "sp_id": 4,
+    "supplier_id": 8,
+    "product_id": 15,
+    "delivery_days": 1,
+    "unit_price": 297.35
+  },
+  {
+    "sp_id": 5,
+    "supplier_id": 13,
+    "product_id": 22,
+    "delivery_days": 9,
+    "unit_price": 389.09
+  },
+  {
+    "sp_id": 6,
+    "supplier_id": 9,
+    "product_id": 23,
+    "delivery_days": 21,
+    "unit_price": 229.72
+  },
+  {
+    "sp_id": 7,
+    "supplier_id": 18,
+    "product_id": 22,
+    "delivery_days": 1,
+    "unit_price": 52.79
+  },
+  {
+    "sp_id": 8,
+    "supplier_id": 9,
+    "product_id": 12,
+    "delivery_days": 19,
+    "unit_price": 433.18
+  },
+  {
+    "sp_id": 9,
+    "supplier_id": 9,
+    "product_id": 3,
+    "delivery_days": 4,
+    "unit_price": 268.86
+  },
+  {
+    "sp_id": 10,
+    "supplier_id": 12,
+    "product_id": 47,
+    "delivery_days": 26,
+    "unit_price": 141.84
+  },
+  {
+    "sp_id": 11,
+    "supplier_id": 20,
+    "product_id": 33,
+    "delivery_days": 4,
+    "unit_price": 173.95
+  },
+  {
+    "sp_id": 12,
+    "supplier_id": 19,
+    "product_id": 13,
+    "delivery_days": 9,
+    "unit_price": 20.93
+  },
+  {
+    "sp_id": 13,
+    "supplier_id": 14,
+    "product_id": 1,
+    "delivery_days": 17,
+    "unit_price": 416.58
+  },
+  {
+    "sp_id": 14,
+    "supplier_id": 18,
+    "product_id": 44,
+    "delivery_days": 24,
+    "unit_price": 423.18
+  },
+  {
+    "sp_id": 15,
+    "supplier_id": 7,
+    "product_id": 24,
+    "delivery_days": 14,
+    "unit_price": 32.42
+  },
+  {
+    "sp_id": 16,
+    "supplier_id": 11,
+    "product_id": 40,
+    "delivery_days": 11,
+    "unit_price": 298.86
+  },
+  {
+    "sp_id": 17,
+    "supplier_id": 4,
+    "product_id": 47,
+    "delivery_days": 29,
+    "unit_price": 135.84
+  },
+  {
+    "sp_id": 18,
+    "supplier_id": 10,
+    "product_id": 43,
+    "delivery_days": 14,
+    "unit_price": 147.46
+  },
+  {
+    "sp_id": 19,
+    "supplier_id": 10,
+    "product_id": 36,
+    "delivery_days": 5,
+    "unit_price": 87.14
+  },
+  {
+    "sp_id": 20,
+    "supplier_id": 13,
+    "product_id": 44,
+    "delivery_days": 24,
+    "unit_price": 406.36
+  },
+  {
+    "sp_id": 21,
+    "supplier_id": 20,
+    "product_id": 37,
+    "delivery_days": 10,
+    "unit_price": 183.33
+  },
+  {
+    "sp_id": 22,
+    "supplier_id": 1,
+    "product_id": 20,
+    "delivery_days": 10,
+    "unit_price": 95.37
+  },
+  {
+    "sp_id": 23,
+    "supplier_id": 19,
+    "product_id": 39,
+    "delivery_days": 21,
+    "unit_price": 145.69
+  },
+  {
+    "sp_id": 24,
+    "supplier_id": 15,
+    "product_id": 29,
+    "delivery_days": 22,
+    "unit_price": 96.95
+  },
+  {
+    "sp_id": 25,
+    "supplier_id": 16,
+    "product_id": 48,
+    "delivery_days": 6,
+    "unit_price": 296.82
+  },
+  {
+    "sp_id": 26,
+    "supplier_id": 10,
+    "product_id": 33,
+    "delivery_days": 22,
+    "unit_price": 285.19
+  },
+  {
+    "sp_id": 27,
+    "supplier_id": 11,
+    "product_id": 6,
+    "delivery_days": 27,
+    "unit_price": 428.45
+  },
+  {
+    "sp_id": 28,
+    "supplier_id": 8,
+    "product_id": 44,
+    "delivery_days": 10,
+    "unit_price": 101.86
+  },
+  {
+    "sp_id": 29,
+    "supplier_id": 7,
+    "product_id": 10,
+    "delivery_days": 1,
+    "unit_price": 21.75
+  },
+  {
+    "sp_id": 30,
+    "supplier_id": 16,
+    "product_id": 40,
+    "delivery_days": 28,
+    "unit_price": 346.05
+  },
+  {
+    "sp_id": 31,
+    "supplier_id": 15,
+    "product_id": 27,
+    "delivery_days": 29,
+    "unit_price": 283.76
+  },
+  {
+    "sp_id": 32,
+    "supplier_id": 7,
+    "product_id": 46,
+    "delivery_days": 23,
+    "unit_price": 173.41
+  },
+  {
+    "sp_id": 33,
+    "supplier_id": 13,
+    "product_id": 16,
+    "delivery_days": 5,
+    "unit_price": 295.57
+  },
+  {
+    "sp_id": 34,
+    "supplier_id": 1,
+    "product_id": 49,
+    "delivery_days": 28,
+    "unit_price": 346.75
+  },
+  {
+    "sp_id": 35,
+    "supplier_id": 4,
+    "product_id": 50,
+    "delivery_days": 14,
+    "unit_price": 99.26
+  },
+  {
+    "sp_id": 36,
+    "supplier_id": 17,
+    "product_id": 30,
+    "delivery_days": 2,
+    "unit_price": 251.28
+  },
+  {
+    "sp_id": 37,
+    "supplier_id": 4,
+    "product_id": 30,
+    "delivery_days": 5,
+    "unit_price": 360.84
+  },
+  {
+    "sp_id": 38,
+    "supplier_id": 17,
+    "product_id": 36,
+    "delivery_days": 20,
+    "unit_price": 143.47
+  },
+  {
+    "sp_id": 39,
+    "supplier_id": 15,
+    "product_id": 40,
+    "delivery_days": 27,
+    "unit_price": 323.95
+  },
+  {
+    "sp_id": 40,
+    "supplier_id": 17,
+    "product_id": 28,
+    "delivery_days": 27,
+    "unit_price": 408.18
+  },
+  {
+    "sp_id": 41,
+    "supplier_id": 15,
+    "product_id": 11,
+    "delivery_days": 24,
+    "unit_price": 387.81
+  },
+  {
+    "sp_id": 42,
+    "supplier_id": 15,
+    "product_id": 17,
+    "delivery_days": 25,
+    "unit_price": 112.01
+  },
+  {
+    "sp_id": 43,
+    "supplier_id": 9,
+    "product_id": 50,
+    "delivery_days": 25,
+    "unit_price": 235.06
+  },
+  {
+    "sp_id": 44,
+    "supplier_id": 8,
+    "product_id": 18,
+    "delivery_days": 15,
+    "unit_price": 35.79
+  },
+  {
+    "sp_id": 45,
+    "supplier_id": 10,
+    "product_id": 16,
+    "delivery_days": 9,
+    "unit_price": 151.8
+  },
+  {
+    "sp_id": 46,
+    "supplier_id": 18,
+    "product_id": 6,
+    "delivery_days": 5,
+    "unit_price": 68.72
+  },
+  {
+    "sp_id": 47,
+    "supplier_id": 13,
+    "product_id": 45,
+    "delivery_days": 5,
+    "unit_price": 318.18
+  },
+  {
+    "sp_id": 48,
+    "supplier_id": 3,
+    "product_id": 27,
+    "delivery_days": 14,
+    "unit_price": 149.57
+  },
+  {
+    "sp_id": 49,
+    "supplier_id": 2,
+    "product_id": 14,
+    "delivery_days": 27,
+    "unit_price": 189.64
+  },
+  {
+    "sp_id": 50,
+    "supplier_id": 19,
+    "product_id": 45,
+    "delivery_days": 1,
+    "unit_price": 385.67
+  },
+  {
+    "sp_id": 51,
+    "supplier_id": 19,
+    "product_id": 25,
+    "delivery_days": 16,
+    "unit_price": 3.65
+  },
+  {
+    "sp_id": 52,
+    "supplier_id": 12,
+    "product_id": 20,
+    "delivery_days": 25,
+    "unit_price": 176.1
+  },
+  {
+    "sp_id": 53,
+    "supplier_id": 14,
+    "product_id": 35,
+    "delivery_days": 24,
+    "unit_price": 330.85
+  },
+  {
+    "sp_id": 54,
+    "supplier_id": 20,
+    "product_id": 15,
+    "delivery_days": 16,
+    "unit_price": 99.52
+  },
+  {
+    "sp_id": 55,
+    "supplier_id": 14,
+    "product_id": 32,
+    "delivery_days": 1,
+    "unit_price": 175.6
+  },
+  {
+    "sp_id": 56,
+    "supplier_id": 13,
+    "product_id": 47,
+    "delivery_days": 6,
+    "unit_price": 378.39
+  },
+  {
+    "sp_id": 57,
+    "supplier_id": 5,
+    "product_id": 40,
+    "delivery_days": 18,
+    "unit_price": 13.11
+  },
+  {
+    "sp_id": 58,
+    "supplier_id": 13,
+    "product_id": 38,
+    "delivery_days": 19,
+    "unit_price": 298.69
+  },
+  {
+    "sp_id": 59,
+    "supplier_id": 3,
+    "product_id": 42,
+    "delivery_days": 14,
+    "unit_price": 61.93
+  },
+  {
+    "sp_id": 60,
+    "supplier_id": 15,
+    "product_id": 12,
+    "delivery_days": 2,
+    "unit_price": 117.81
+  },
+  {
+    "sp_id": 61,
+    "supplier_id": 11,
+    "product_id": 14,
+    "delivery_days": 15,
+    "unit_price": 147.75
+  },
+  {
+    "sp_id": 62,
+    "supplier_id": 13,
+    "product_id": 18,
+    "delivery_days": 25,
+    "unit_price": 428.09
+  },
+  {
+    "sp_id": 63,
+    "supplier_id": 14,
+    "product_id": 17,
+    "delivery_days": 27,
+    "unit_price": 37.78
+  },
+  {
+    "sp_id": 64,
+    "supplier_id": 1,
+    "product_id": 48,
+    "delivery_days": 18,
+    "unit_price": 24.39
+  },
+  {
+    "sp_id": 65,
+    "supplier_id": 12,
+    "product_id": 15,
+    "delivery_days": 21,
+    "unit_price": 31.81
+  },
+  {
+    "sp_id": 66,
+    "supplier_id": 2,
+    "product_id": 49,
+    "delivery_days": 1,
+    "unit_price": 427.38
+  },
+  {
+    "sp_id": 67,
+    "supplier_id": 7,
+    "product_id": 2,
+    "delivery_days": 20,
+    "unit_price": 69.42
+  },
+  {
+    "sp_id": 68,
+    "supplier_id": 5,
+    "product_id": 31,
+    "delivery_days": 22,
+    "unit_price": 52.36
+  },
+  {
+    "sp_id": 69,
+    "supplier_id": 7,
+    "product_id": 30,
+    "delivery_days": 23,
+    "unit_price": 116.05
+  },
+  {
+    "sp_id": 70,
+    "supplier_id": 12,
+    "product_id": 11,
+    "delivery_days": 20,
+    "unit_price": 273.65
+  },
+  {
+    "sp_id": 71,
+    "supplier_id": 6,
+    "product_id": 20,
+    "delivery_days": 4,
+    "unit_price": 260.83
+  },
+  {
+    "sp_id": 72,
+    "supplier_id": 10,
+    "product_id": 37,
+    "delivery_days": 22,
+    "unit_price": 408.7
+  },
+  {
+    "sp_id": 73,
+    "supplier_id": 13,
+    "product_id": 26,
+    "delivery_days": 23,
+    "unit_price": 90.05
+  },
+  {
+    "sp_id": 74,
+    "supplier_id": 8,
+    "product_id": 7,
+    "delivery_days": 23,
+    "unit_price": 347.84
+  },
+  {
+    "sp_id": 75,
+    "supplier_id": 20,
+    "product_id": 8,
+    "delivery_days": 26,
+    "unit_price": 442.75
+  },
+  {
+    "sp_id": 76,
+    "supplier_id": 2,
+    "product_id": 23,
+    "delivery_days": 18,
+    "unit_price": 193.34
+  },
+  {
+    "sp_id": 77,
+    "supplier_id": 12,
+    "product_id": 5,
+    "delivery_days": 17,
+    "unit_price": 291.75
+  },
+  {
+    "sp_id": 78,
+    "supplier_id": 1,
+    "product_id": 27,
+    "delivery_days": 27,
+    "unit_price": 221.1
+  },
+  {
+    "sp_id": 79,
+    "supplier_id": 14,
+    "product_id": 24,
+    "delivery_days": 21,
+    "unit_price": 401.32
+  },
+  {
+    "sp_id": 80,
+    "supplier_id": 15,
+    "product_id": 46,
+    "delivery_days": 5,
+    "unit_price": 196.53
+  },
+  {
+    "sp_id": 81,
+    "supplier_id": 17,
+    "product_id": 42,
+    "delivery_days": 9,
+    "unit_price": 277.54
+  },
+  {
+    "sp_id": 82,
+    "supplier_id": 18,
+    "product_id": 50,
+    "delivery_days": 16,
+    "unit_price": 209.73
+  },
+  {
+    "sp_id": 83,
+    "supplier_id": 19,
+    "product_id": 18,
+    "delivery_days": 11,
+    "unit_price": 383.42
+  },
+  {
+    "sp_id": 84,
+    "supplier_id": 3,
+    "product_id": 18,
+    "delivery_days": 29,
+    "unit_price": 203.41
+  },
+  {
+    "sp_id": 85,
+    "supplier_id": 15,
+    "product_id": 37,
+    "delivery_days": 20,
+    "unit_price": 301.02
+  },
+  {
+    "sp_id": 86,
+    "supplier_id": 11,
+    "product_id": 2,
+    "delivery_days": 16,
+    "unit_price": 383.08
+  },
+  {
+    "sp_id": 87,
+    "supplier_id": 6,
+    "product_id": 32,
+    "delivery_days": 7,
+    "unit_price": 160.32
+  },
+  {
+    "sp_id": 88,
+    "supplier_id": 9,
+    "product_id": 22,
+    "delivery_days": 9,
+    "unit_price": 396.26
+  },
+  {
+    "sp_id": 89,
+    "supplier_id": 9,
+    "product_id": 36,
+    "delivery_days": 1,
+    "unit_price": 232.97
+  },
+  {
+    "sp_id": 90,
+    "supplier_id": 7,
+    "product_id": 6,
+    "delivery_days": 8,
+    "unit_price": 324.31
+  },
+  {
+    "sp_id": 91,
+    "supplier_id": 16,
+    "product_id": 36,
+    "delivery_days": 25,
+    "unit_price": 108.91
+  },
+  {
+    "sp_id": 92,
+    "supplier_id": 16,
+    "product_id": 42,
+    "delivery_days": 23,
+    "unit_price": 221.38
+  },
+  {
+    "sp_id": 93,
+    "supplier_id": 1,
+    "product_id": 6,
+    "delivery_days": 10,
+    "unit_price": 100.5
+  },
+  {
+    "sp_id": 94,
+    "supplier_id": 8,
+    "product_id": 20,
+    "delivery_days": 22,
+    "unit_price": 262.12
+  },
+  {
+    "sp_id": 95,
+    "supplier_id": 17,
+    "product_id": 23,
+    "delivery_days": 14,
+    "unit_price": 448.49
+  },
+  {
+    "sp_id": 96,
+    "supplier_id": 12,
+    "product_id": 45,
+    "delivery_days": 15,
+    "unit_price": 122.64
+  },
+  {
+    "sp_id": 97,
+    "supplier_id": 9,
+    "product_id": 15,
+    "delivery_days": 4,
+    "unit_price": 324.86
+  },
+  {
+    "sp_id": 98,
+    "supplier_id": 11,
+    "product_id": 8,
+    "delivery_days": 24,
+    "unit_price": 241.6
+  },
+  {
+    "sp_id": 99,
+    "supplier_id": 6,
+    "product_id": 13,
+    "delivery_days": 7,
+    "unit_price": 332.63
+  },
+  {
+    "sp_id": 100,
+    "supplier_id": 9,
+    "product_id": 47,
+    "delivery_days": 19,
+    "unit_price": 439.5
+  }
+]

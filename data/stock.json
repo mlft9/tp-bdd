@@ -1,0 +1,402 @@
+[
+  {
+    "stock_id": 1,
+    "product_id": 1,
+    "quantity": 447,
+    "min_threshold": 9,
+    "last_updated": "2025-03-29",
+    "end_date": "2026-07-18"
+  },
+  {
+    "stock_id": 2,
+    "product_id": 2,
+    "quantity": 50,
+    "min_threshold": 8,
+    "last_updated": "2025-10-29",
+    "end_date": "2026-07-08"
+  },
+  {
+    "stock_id": 3,
+    "product_id": 3,
+    "quantity": 428,
+    "min_threshold": 5,
+    "last_updated": "2024-04-05",
+    "end_date": "2025-08-31"
+  },
+  {
+    "stock_id": 4,
+    "product_id": 4,
+    "quantity": 85,
+    "min_threshold": 31,
+    "last_updated": "2025-05-12",
+    "end_date": "2026-05-08"
+  },
+  {
+    "stock_id": 5,
+    "product_id": 5,
+    "quantity": 109,
+    "min_threshold": 30,
+    "last_updated": "2024-03-01",
+    "end_date": "2025-06-18"
+  },
+  {
+    "stock_id": 6,
+    "product_id": 6,
+    "quantity": 194,
+    "min_threshold": 5,
+    "last_updated": "2025-02-03",
+    "end_date": "2025-09-29"
+  },
+  {
+    "stock_id": 7,
+    "product_id": 7,
+    "quantity": 474,
+    "min_threshold": 34,
+    "last_updated": "2024-10-19",
+    "end_date": "2026-03-10"
+  },
+  {
+    "stock_id": 8,
+    "product_id": 8,
+    "quantity": 356,
+    "min_threshold": 40,
+    "last_updated": "2025-11-08",
+    "end_date": "2026-05-14"
+  },
+  {
+    "stock_id": 9,
+    "product_id": 9,
+    "quantity": 79,
+    "min_threshold": 17,
+    "last_updated": "2024-10-30",
+    "end_date": "2025-08-11"
+  },
+  {
+    "stock_id": 10,
+    "product_id": 10,
+    "quantity": 495,
+    "min_threshold": 8,
+    "last_updated": "2025-08-16",
+    "end_date": "2026-07-10"
+  },
+  {
+    "stock_id": 11,
+    "product_id": 11,
+    "quantity": 31,
+    "min_threshold": 25,
+    "last_updated": "2024-02-28",
+    "end_date": "2025-02-21"
+  },
+  {
+    "stock_id": 12,
+    "product_id": 12,
+    "quantity": 299,
+    "min_threshold": 35,
+    "last_updated": "2025-05-29",
+    "end_date": "2026-06-28"
+  },
+  {
+    "stock_id": 13,
+    "product_id": 13,
+    "quantity": 80,
+    "min_threshold": 8,
+    "last_updated": "2025-06-04",
+    "end_date": "2025-03-24"
+  },
+  {
+    "stock_id": 14,
+    "product_id": 14,
+    "quantity": 435,
+    "min_threshold": 16,
+    "last_updated": "2024-03-11",
+    "end_date": "2026-09-02"
+  },
+  {
+    "stock_id": 15,
+    "product_id": 15,
+    "quantity": 34,
+    "min_threshold": 48,
+    "last_updated": "2024-08-28",
+    "end_date": "2026-02-18"
+  },
+  {
+    "stock_id": 16,
+    "product_id": 16,
+    "quantity": 61,
+    "min_threshold": 41,
+    "last_updated": "2024-09-09",
+    "end_date": "2026-08-16"
+  },
+  {
+    "stock_id": 17,
+    "product_id": 17,
+    "quantity": 304,
+    "min_threshold": 7,
+    "last_updated": "2025-09-26",
+    "end_date": "2025-03-25"
+  },
+  {
+    "stock_id": 18,
+    "product_id": 18,
+    "quantity": 214,
+    "min_threshold": 47,
+    "last_updated": "2025-08-20",
+    "end_date": "2026-08-02"
+  },
+  {
+    "stock_id": 19,
+    "product_id": 19,
+    "quantity": 267,
+    "min_threshold": 25,
+    "last_updated": "2024-09-24",
+    "end_date": "2025-07-29"
+  },
+  {
+    "stock_id": 20,
+    "product_id": 20,
+    "quantity": 342,
+    "min_threshold": 50,
+    "last_updated": "2024-11-17",
+    "end_date": "2025-09-02"
+  },
+  {
+    "stock_id": 21,
+    "product_id": 21,
+    "quantity": 135,
+    "min_threshold": 30,
+    "last_updated": "2024-05-14",
+    "end_date": "2026-11-19"
+  },
+  {
+    "stock_id": 22,
+    "product_id": 22,
+    "quantity": 330,
+    "min_threshold": 24,
+    "last_updated": "2025-04-13",
+    "end_date": "2025-11-20"
+  },
+  {
+    "stock_id": 23,
+    "product_id": 23,
+    "quantity": 475,
+    "min_threshold": 9,
+    "last_updated": "2024-01-10",
+    "end_date": "2026-04-15"
+  },
+  {
+    "stock_id": 24,
+    "product_id": 24,
+    "quantity": 318,
+    "min_threshold": 41,
+    "last_updated": "2024-04-12",
+    "end_date": "2025-03-17"
+  },
+  {
+    "stock_id": 25,
+    "product_id": 25,
+    "quantity": 275,
+    "min_threshold": 18,
+    "last_updated": "2025-06-02",
+    "end_date": "2025-09-29"
+  },
+  {
+    "stock_id": 26,
+    "product_id": 26,
+    "quantity": 67,
+    "min_threshold": 27,
+    "last_updated": "2024-03-11",
+    "end_date": "2025-09-08"
+  },
+  {
+    "stock_id": 27,
+    "product_id": 27,
+    "quantity": 189,
+    "min_threshold": 23,
+    "last_updated": "2024-06-10",
+    "end_date": "2026-03-25"
+  },
+  {
+    "stock_id": 28,
+    "product_id": 28,
+    "quantity": 426,
+    "min_threshold": 39,
+    "last_updated": "2025-12-21",
+    "end_date": "2025-11-06"
+  },
+  {
+    "stock_id": 29,
+    "product_id": 29,
+    "quantity": 313,
+    "min_threshold": 46,
+    "last_updated": "2025-06-25",
+    "end_date": "2025-01-09"
+  },
+  {
+    "stock_id": 30,
+    "product_id": 30,
+    "quantity": 341,
+    "min_threshold": 40,
+    "last_updated": "2024-11-02",
+    "end_date": "2026-11-11"
+  },
+  {
+    "stock_id": 31,
+    "product_id": 31,
+    "quantity": 53,
+    "min_threshold": 13,
+    "last_updated": "2024-09-27",
+    "end_date": "2025-04-29"
+  },
+  {
+    "stock_id": 32,
+    "product_id": 32,
+    "quantity": 455,
+    "min_threshold": 11,
+    "last_updated": "2025-07-20",
+    "end_date": "2025-06-09"
+  },
+  {
+    "stock_id": 33,
+    "product_id": 33,
+    "quantity": 139,
+    "min_threshold": 23,
+    "last_updated": "2025-09-11",
+    "end_date": "2025-08-04"
+  },
+  {
+    "stock_id": 34,
+    "product_id": 34,
+    "quantity": 367,
+    "min_threshold": 26,
+    "last_updated": "2024-07-27",
+    "end_date": "2026-12-05"
+  },
+  {
+    "stock_id": 35,
+    "product_id": 35,
+    "quantity": 324,
+    "min_threshold": 21,
+    "last_updated": "2025-06-01",
+    "end_date": "2026-05-16"
+  },
+  {
+    "stock_id": 36,
+    "product_id": 36,
+    "quantity": 128,
+    "min_threshold": 8,
+    "last_updated": "2024-04-04",
+    "end_date": "2026-10-12"
+  },
+  {
+    "stock_id": 37,
+    "product_id": 37,
+    "quantity": 216,
+    "min_threshold": 22,
+    "last_updated": "2024-02-15",
+    "end_date": "2025-01-04"
+  },
+  {
+    "stock_id": 38,
+    "product_id": 38,
+    "quantity": 170,
+    "min_threshold": 13,
+    "last_updated": "2025-10-14",
+    "end_date": "2025-09-26"
+  },
+  {
+    "stock_id": 39,
+    "product_id": 39,
+    "quantity": 82,
+    "min_threshold": 33,
+    "last_updated": "2025-07-18",
+    "end_date": "2026-12-24"
+  },
+  {
+    "stock_id": 40,
+    "product_id": 40,
+    "quantity": 218,
+    "min_threshold": 40,
+    "last_updated": "2024-01-10",
+    "end_date": "2025-04-25"
+  },
+  {
+    "stock_id": 41,
+    "product_id": 41,
+    "quantity": 38,
+    "min_threshold": 49,
+    "last_updated": "2024-06-01",
+    "end_date": "2026-07-13"
+  },
+  {
+    "stock_id": 42,
+    "product_id": 42,
+    "quantity": 18,
+    "min_threshold": 28,
+    "last_updated": "2025-08-19",
+    "end_date": "2026-07-20"
+  },
+  {
+    "stock_id": 43,
+    "product_id": 43,
+    "quantity": 75,
+    "min_threshold": 32,
+    "last_updated": "2024-05-10",
+    "end_date": "2025-02-12"
+  },
+  {
+    "stock_id": 44,
+    "product_id": 44,
+    "quantity": 157,
+    "min_threshold": 28,
+    "last_updated": "2024-02-10",
+    "end_date": "2026-01-02"
+  },
+  {
+    "stock_id": 45,
+    "product_id": 45,
+    "quantity": 107,
+    "min_threshold": 48,
+    "last_updated": "2024-09-12",
+    "end_date": "2026-11-14"
+  },
+  {
+    "stock_id": 46,
+    "product_id": 46,
+    "quantity": 52,
+    "min_threshold": 27,
+    "last_updated": "2025-07-27",
+    "end_date": "2026-02-21"
+  },
+  {
+    "stock_id": 47,
+    "product_id": 47,
+    "quantity": 498,
+    "min_threshold": 44,
+    "last_updated": "2024-06-07",
+    "end_date": "2025-08-31"
+  },
+  {
+    "stock_id": 48,
+    "product_id": 48,
+    "quantity": 442,
+    "min_threshold": 15,
+    "last_updated": "2024-06-30",
+    "end_date": "2026-02-27"
+  },
+  {
+    "stock_id": 49,
+    "product_id": 49,
+    "quantity": 12,
+    "min_threshold": 16,
+    "last_updated": "2024-12-06",
+    "end_date": "2026-02-26"
+  },
+  {
+    "stock_id": 50,
+    "product_id": 50,
+    "quantity": 410,
+    "min_threshold": 47,
+    "last_updated": "2024-09-11",
+    "end_date": "2025-10-01"
+  }
+]

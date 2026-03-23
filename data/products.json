@@ -1,0 +1,352 @@
+[
+  {
+    "product_id": 1,
+    "name": "Ordinateur portable",
+    "category": "Electronique",
+    "unit_price": 320.07,
+    "unit": "piece"
+  },
+  {
+    "product_id": 2,
+    "name": "Clavier mecanique",
+    "category": "Electronique",
+    "unit_price": 371.03,
+    "unit": "kg"
+  },
+  {
+    "product_id": 3,
+    "name": "Souris sans fil",
+    "category": "Electronique",
+    "unit_price": 112.38,
+    "unit": "piece"
+  },
+  {
+    "product_id": 4,
+    "name": "Ecran 24 pouces",
+    "category": "Electronique",
+    "unit_price": 338.67,
+    "unit": "metre"
+  },
+  {
+    "product_id": 5,
+    "name": "Webcam HD",
+    "category": "Electronique",
+    "unit_price": 44.38,
+    "unit": "carton"
+  },
+  {
+    "product_id": 6,
+    "name": "Casque audio",
+    "category": "Electronique",
+    "unit_price": 16.86,
+    "unit": "piece"
+  },
+  {
+    "product_id": 7,
+    "name": "Disque dur externe",
+    "category": "Electronique",
+    "unit_price": 110.1,
+    "unit": "metre"
+  },
+  {
+    "product_id": 8,
+    "name": "Cle USB 64Go",
+    "category": "Electronique",
+    "unit_price": 301.41,
+    "unit": "metre"
+  },
+  {
+    "product_id": 9,
+    "name": "Chargeur rapide",
+    "category": "Electronique",
+    "unit_price": 100.22,
+    "unit": "metre"
+  },
+  {
+    "product_id": 10,
+    "name": "Hub USB",
+    "category": "Electronique",
+    "unit_price": 210.34,
+    "unit": "carton"
+  },
+  {
+    "product_id": 11,
+    "name": "Farine de ble",
+    "category": "Alimentaire",
+    "unit_price": 295.04,
+    "unit": "piece"
+  },
+  {
+    "product_id": 12,
+    "name": "Huile d olive",
+    "category": "Alimentaire",
+    "unit_price": 379.64,
+    "unit": "kg"
+  },
+  {
+    "product_id": 13,
+    "name": "Sucre roux",
+    "category": "Alimentaire",
+    "unit_price": 349.37,
+    "unit": "litre"
+  },
+  {
+    "product_id": 14,
+    "name": "Cafe arabica",
+    "category": "Alimentaire",
+    "unit_price": 139.66,
+    "unit": "kg"
+  },
+  {
+    "product_id": 15,
+    "name": "The vert",
+    "category": "Alimentaire",
+    "unit_price": 478.65,
+    "unit": "litre"
+  },
+  {
+    "product_id": 16,
+    "name": "Riz basmati",
+    "category": "Alimentaire",
+    "unit_price": 52.0,
+    "unit": "carton"
+  },
+  {
+    "product_id": 17,
+    "name": "Pates completes",
+    "category": "Alimentaire",
+    "unit_price": 49.26,
+    "unit": "litre"
+  },
+  {
+    "product_id": 18,
+    "name": "Sel de mer",
+    "category": "Alimentaire",
+    "unit_price": 302.26,
+    "unit": "piece"
+  },
+  {
+    "product_id": 19,
+    "name": "Poivre noir",
+    "category": "Alimentaire",
+    "unit_price": 365.14,
+    "unit": "metre"
+  },
+  {
+    "product_id": 20,
+    "name": "Miel toutes fleurs",
+    "category": "Alimentaire",
+    "unit_price": 63.29,
+    "unit": "carton"
+  },
+  {
+    "product_id": 21,
+    "name": "T-shirt coton",
+    "category": "Vetement",
+    "unit_price": 40.32,
+    "unit": "litre"
+  },
+  {
+    "product_id": 22,
+    "name": "Jean slim",
+    "category": "Vetement",
+    "unit_price": 414.87,
+    "unit": "metre"
+  },
+  {
+    "product_id": 23,
+    "name": "Veste en cuir",
+    "category": "Vetement",
+    "unit_price": 442.84,
+    "unit": "litre"
+  },
+  {
+    "product_id": 24,
+    "name": "Robe ete",
+    "category": "Vetement",
+    "unit_price": 289.1,
+    "unit": "piece"
+  },
+  {
+    "product_id": 25,
+    "name": "Pull laine",
+    "category": "Vetement",
+    "unit_price": 23.87,
+    "unit": "kg"
+  },
+  {
+    "product_id": 26,
+    "name": "Chaussettes pack 5",
+    "category": "Vetement",
+    "unit_price": 386.76,
+    "unit": "piece"
+  },
+  {
+    "product_id": 27,
+    "name": "Short sport",
+    "category": "Vetement",
+    "unit_price": 427.8,
+    "unit": "piece"
+  },
+  {
+    "product_id": 28,
+    "name": "Manteau hiver",
+    "category": "Vetement",
+    "unit_price": 190.68,
+    "unit": "carton"
+  },
+  {
+    "product_id": 29,
+    "name": "Chemise oxford",
+    "category": "Vetement",
+    "unit_price": 318.21,
+    "unit": "litre"
+  },
+  {
+    "product_id": 30,
+    "name": "Legging yoga",
+    "category": "Vetement",
+    "unit_price": 82.16,
+    "unit": "litre"
+  },
+  {
+    "product_id": 31,
+    "name": "Tournevis set",
+    "category": "Outillage",
+    "unit_price": 105.54,
+    "unit": "litre"
+  },
+  {
+    "product_id": 32,
+    "name": "Marteau 500g",
+    "category": "Outillage",
+    "unit_price": 351.21,
+    "unit": "piece"
+  },
+  {
+    "product_id": 33,
+    "name": "Perceuse electrique",
+    "category": "Outillage",
+    "unit_price": 304.96,
+    "unit": "kg"
+  },
+  {
+    "product_id": 34,
+    "name": "Niveau a bulle",
+    "category": "Outillage",
+    "unit_price": 267.54,
+    "unit": "kg"
+  },
+  {
+    "product_id": 35,
+    "name": "Cle a molette",
+    "category": "Outillage",
+    "unit_price": 82.54,
+    "unit": "carton"
+  },
+  {
+    "product_id": 36,
+    "name": "Scie circulaire",
+    "category": "Outillage",
+    "unit_price": 135.7,
+    "unit": "metre"
+  },
+  {
+    "product_id": 37,
+    "name": "Cutter professionnel",
+    "category": "Outillage",
+    "unit_price": 110.59,
+    "unit": "litre"
+  },
+  {
+    "product_id": 38,
+    "name": "Pince multifonction",
+    "category": "Outillage",
+    "unit_price": 421.58,
+    "unit": "piece"
+  },
+  {
+    "product_id": 39,
+    "name": "Ruban adhesif",
+    "category": "Outillage",
+    "unit_price": 115.29,
+    "unit": "piece"
+  },
+  {
+    "product_id": 40,
+    "name": "Metre ruban",
+    "category": "Outillage",
+    "unit_price": 402.72,
+    "unit": "carton"
+  },
+  {
+    "product_id": 41,
+    "name": "Bureau bois",
+    "category": "Mobilier",
+    "unit_price": 134.6,
+    "unit": "kg"
+  },
+  {
+    "product_id": 42,
+    "name": "Chaise ergonomique",
+    "category": "Mobilier",
+    "unit_price": 456.65,
+    "unit": "metre"
+  },
+  {
+    "product_id": 43,
+    "name": "Etagere murale",
+    "category": "Mobilier",
+    "unit_price": 438.31,
+    "unit": "litre"
+  },
+  {
+    "product_id": 44,
+    "name": "Table basse",
+    "category": "Mobilier",
+    "unit_price": 107.1,
+    "unit": "carton"
+  },
+  {
+    "product_id": 45,
+    "name": "Armoire penderie",
+    "category": "Mobilier",
+    "unit_price": 198.42,
+    "unit": "carton"
+  },
+  {
+    "product_id": 46,
+    "name": "Canape 3 places",
+    "category": "Mobilier",
+    "unit_price": 72.29,
+    "unit": "kg"
+  },
+  {
+    "product_id": 47,
+    "name": "Lit 160x200",
+    "category": "Mobilier",
+    "unit_price": 124.07,
+    "unit": "metre"
+  },
+  {
+    "product_id": 48,
+    "name": "Commode 4 tiroirs",
+    "category": "Mobilier",
+    "unit_price": 269.95,
+    "unit": "metre"
+  },
+  {
+    "product_id": 49,
+    "name": "Tabouret bar",
+    "category": "Mobilier",
+    "unit_price": 214.79,
+    "unit": "metre"
+  },
+  {
+    "product_id": 50,
+    "name": "Miroir mural",
+    "category": "Mobilier",
+    "unit_price": 200.3,
+    "unit": "kg"
+  }
+]

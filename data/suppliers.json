@@ -1,0 +1,162 @@
+[
+  {
+    "supplier_id": 1,
+    "name": "TechPro Distribution",
+    "email": "contact@techprodistr.com",
+    "phone": "+33 3 75 73 21 16",
+    "country": "Allemagne",
+    "avg_delivery_days": 6
+  },
+  {
+    "supplier_id": 2,
+    "name": "AlimFresh SAS",
+    "email": "contact@alimfreshsas.com",
+    "phone": "+33 3 97 64 86 18",
+    "country": "Portugal",
+    "avg_delivery_days": 14
+  },
+  {
+    "supplier_id": 3,
+    "name": "ModaStyle SARL",
+    "email": "contact@modastylesar.com",
+    "phone": "+33 8 77 42 80 11",
+    "country": "Allemagne",
+    "avg_delivery_days": 23
+  },
+  {
+    "supplier_id": 4,
+    "name": "OutilPro SA",
+    "email": "contact@outilprosa.com",
+    "phone": "+33 9 44 92 53 24",
+    "country": "Belgique",
+    "avg_delivery_days": 15
+  },
+  {
+    "supplier_id": 5,
+    "name": "MeubleDesign SAS",
+    "email": "contact@meubledesign.com",
+    "phone": "+33 3 68 10 43 74",
+    "country": "Espagne",
+    "avg_delivery_days": 18
+  },
+  {
+    "supplier_id": 6,
+    "name": "GlobalSupply Co",
+    "email": "contact@globalsupply.com",
+    "phone": "+33 2 90 48 91 74",
+    "country": "Italie",
+    "avg_delivery_days": 6
+  },
+  {
+    "supplier_id": 7,
+    "name": "FranceFournitures",
+    "email": "contact@francefourni.com",
+    "phone": "+33 6 30 79 77 10",
+    "country": "Pays-Bas",
+    "avg_delivery_days": 17
+  },
+  {
+    "supplier_id": 8,
+    "name": "EuroLogistic",
+    "email": "contact@eurologistic.com",
+    "phone": "+33 1 24 56 49 40",
+    "country": "France",
+    "avg_delivery_days": 9
+  },
+  {
+    "supplier_id": 9,
+    "name": "ProStock International",
+    "email": "contact@prostockinte.com",
+    "phone": "+33 2 20 72 18 78",
+    "country": "Espagne",
+    "avg_delivery_days": 6
+  },
+  {
+    "supplier_id": 10,
+    "name": "QuickDeliver SAS",
+    "email": "contact@quickdeliver.com",
+    "phone": "+33 8 80 31 43 77",
+    "country": "Portugal",
+    "avg_delivery_days": 8
+  },
+  {
+    "supplier_id": 11,
+    "name": "NordImport AB",
+    "email": "contact@nordimportab.com",
+    "phone": "+33 9 98 35 49 61",
+    "country": "Pays-Bas",
+    "avg_delivery_days": 16
+  },
+  {
+    "supplier_id": 12,
+    "name": "SudDistribution",
+    "email": "contact@suddistribut.com",
+    "phone": "+33 9 67 25 41 38",
+    "country": "Allemagne",
+    "avg_delivery_days": 12
+  },
+  {
+    "supplier_id": 13,
+    "name": "OuestFournitures",
+    "email": "contact@ouestfournit.com",
+    "phone": "+33 1 85 80 39 85",
+    "country": "Italie",
+    "avg_delivery_days": 2
+  },
+  {
+    "supplier_id": 14,
+    "name": "EstLogistic",
+    "email": "contact@estlogistic.com",
+    "phone": "+33 2 90 17 39 18",
+    "country": "France",
+    "avg_delivery_days": 29
+  },
+  {
+    "supplier_id": 15,
+    "name": "CentreSupply SAS",
+    "email": "contact@centresupply.com",
+    "phone": "+33 6 19 75 40 45",
+    "country": "Suisse",
+    "avg_delivery_days": 8
+  },
+  {
+    "supplier_id": 16,
+    "name": "TopFournisseur",
+    "email": "contact@topfournisse.com",
+    "phone": "+33 9 26 83 83 70",
+    "country": "Italie",
+    "avg_delivery_days": 27
+  },
+  {
+    "supplier_id": 17,
+    "name": "FastDeliver Co",
+    "email": "contact@fastdeliverc.com",
+    "phone": "+33 8 62 34 22 22",
+    "country": "Portugal",
+    "avg_delivery_days": 13
+  },
+  {
+    "supplier_id": 18,
+    "name": "MegaStock SA",
+    "email": "contact@megastocksa.com",
+    "phone": "+33 7 62 69 16 96",
+    "country": "Allemagne",
+    "avg_delivery_days": 3
+  },
+  {
+    "supplier_id": 19,
+    "name": "AlphaSupply",
+    "email": "contact@alphasupply.com",
+    "phone": "+33 7 53 23 41 34",
+    "country": "Italie",
+    "avg_delivery_days": 19
+  },
+  {
+    "supplier_id": 20,
+    "name": "BetaDistrib",
+    "email": "contact@betadistrib.com",
+    "phone": "+33 8 27 64 33 45",
+    "country": "Suisse",
+    "avg_delivery_days": 9
+  }
+]
