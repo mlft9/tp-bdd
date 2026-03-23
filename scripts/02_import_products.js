@@ -5,12 +5,11 @@
 // Usage : mongosh tp_stock 02_import_products.js
 // =============================================================
 
-// Charge les fichiers JSON
-// Chemin relatif au répertoire depuis lequel mongosh est lancé
-// Lance depuis la racine du projet : mongosh tp_stock scripts/02_import_products.js
+// ⚠️ Modifie DATA_DIR si ton projet est ailleurs
+const DATA_DIR = "D:/Documents/Cours/bdd/tp-k/data";
 
-const products = JSON.parse(fs.readFileSync("data/products.json", "utf8"));
-const stocks    = JSON.parse(fs.readFileSync("data/stock.json",    "utf8"));
+const products = JSON.parse(fs.readFileSync(`${DATA_DIR}/products.json`, "utf8"));
+const stocks    = JSON.parse(fs.readFileSync(`${DATA_DIR}/stock.json`,    "utf8"));
 
 // Construit un index stock par product_id pour les lookups O(1)
 const stockByProductId = {};

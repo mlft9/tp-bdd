@@ -5,8 +5,11 @@
 // Usage : mongosh tp_stock scripts/03_import_orders.js
 // =============================================================
 
-const orders   = JSON.parse(fs.readFileSync("data/orders.json",   "utf8"));
-const products = JSON.parse(fs.readFileSync("data/products.json", "utf8"));
+// ⚠️ Modifie DATA_DIR si ton projet est ailleurs
+const DATA_DIR = "D:/Documents/Cours/bdd/tp-k/data";
+
+const orders   = JSON.parse(fs.readFileSync(`${DATA_DIR}/orders.json`,   "utf8"));
+const products = JSON.parse(fs.readFileSync(`${DATA_DIR}/products.json`, "utf8"));
 
 // Index produits par product_id
 const productById = {};

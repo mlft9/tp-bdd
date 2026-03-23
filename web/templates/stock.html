@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Etat du stock{% endblock %}
+
+{% block content %}
+<h1>Etat du stock d'un produit</h1>
+
+<form method="get" action="{{ url_for('stock') }}">
+  <div class="form-group">
+    <label for="product_id">Produit :</label>
+    <select name="product_id" id="product_id">
+      <option value="">-- Choisir un produit --</option>
+      {% for p in produits %}
+      <option value="{{ p.product_id }}"
+        {% if pid == p.product_id|string %}selected{% endif %}>
+        {{ p.product_id }} — {{ p.name }}
+      </option>
+      {% endfor %}
+    </select>
+    <button type="submit">Consulter</button>
+  </div>
+</form>
+
+{% if error %}
+  <div class="alert">{{ error }}</div>
+{% endif %}
+
+{% if result %}
+<div class="result-card">
+  <dl>
+    <dt>Produit</dt>
+    <dd><strong>{{ result.nom }}</strong> (ID {{ result.product_id }})</dd>
+
+    <dt>Categorie</dt>
+    <dd>{{ result.categorie }}</dd>
+
+    <dt>Quantite en stock</dt>
+    <dd>{{ result.quantite }} unites</dd>
+
+    <dt>Seuil minimum</dt>
+    <dd>{{ result.seuil_min }} unites</dd>
+
+    <dt>Derniere mise a jour</dt>
+    <dd>{{ result.derniere_maj }}</dd>
+
+    <dt>Statut</dt>
+    <dd>
+      {% if "CRITIQUE" in result.statut %}
+        <span class="badge badge-critique">Critique</span>
+      {% elif "BAS" in result.statut %}
+        <span class="badge badge-bas">Bas</span>
+      {% else %}
+        <span class="badge badge-normal">Normal</span>
+      {% endif %}
+      &nbsp;{{ result.statut }}
+    </dd>
+  </dl>
+</div>
+{% endif %}
+{% endblock %}

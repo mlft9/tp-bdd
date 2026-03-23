@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+<h1>Tableau de bord</h1>
+
+<div class="cards">
+  <div class="card">
+    <div class="value">{{ stats.nb_produits }}</div>
+    <div class="label">Produits en catalogue</div>
+  </div>
+  <div class="card critique">
+    <div class="value">{{ stats.nb_critiques }}</div>
+    <div class="label">Stocks critiques</div>
+  </div>
+  <div class="card warning">
+    <div class="value">{{ stats.nb_pending }}</div>
+    <div class="label">Commandes en attente</div>
+  </div>
+  <div class="card {% if stats.nb_bloques > 0 %}critique{% else %}ok{% endif %}">
+    <div class="value">{{ stats.nb_bloques }}</div>
+    <div class="label">Commandes bloquees (stock insuffisant)</div>
+  </div>
+</div>
+
+<h2>Fonctionnalites disponibles</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Fonctionnalite</th>
+      <th>Description</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Etat du stock</strong></td>
+      <td>Quantite disponible, seuil minimum et statut d'un produit</td>
+      <td><a href="{{ url_for('stock') }}">Acceder</a></td>
+    </tr>
+    <tr>
+      <td><strong>Commandes bloquees</strong></td>
+      <td>Commandes PENDING dont la quantite depasse le stock disponible</td>
+      <td><a href="{{ url_for('commandes') }}">Acceder</a></td>
+    </tr>
+    <tr>
+      <td><strong>Delais fournisseurs</strong></td>
+      <td>Tous les fournisseurs d'un produit tries par delai de livraison</td>
+      <td><a href="{{ url_for('fournisseurs') }}">Acceder</a></td>
+    </tr>
+    <tr>
+      <td><strong>Date de livraison</strong></td>
+      <td>Suivi d'une commande : date reelle ou prevue + meilleur fournisseur</td>
+      <td><a href="{{ url_for('livraison') }}">Acceder</a></td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}

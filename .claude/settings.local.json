@@ -5,7 +5,17 @@
       "Bash(pip install:*)",
       "Bash(powershell -Command \"Get-Item ''D:\\\\Documents\\\\Cours\\\\bdd\\\\tp-k\\\\sujet\\\\Optimisation_BDD_NoSQL_-_Jour_2.pptx'' | Select-Object FullName, Length\")",
       "Bash(powershell -Command \":*)",
-      "Bash(python3 -c \":*)"
+      "Bash(python3 -c \":*)",
+      "Bash(where mongosh:*)",
+      "Bash(where mongo:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/**)",
+      "Bash(python scripts/import_data.py)",
+      "Bash(python scripts/views.py)",
+      "Bash(python scripts/queries.py)",
+      "Bash(python scripts/indexes.py)",
+      "Bash(echo \"1:*)",
+      "Bash(python scripts/app.py)"
     ]
   }
 }

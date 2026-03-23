@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}Delais fournisseurs{% endblock %}
+
+{% block content %}
+<h1>Delais de livraison par fournisseur</h1>
+
+<form method="get" action="{{ url_for('fournisseurs') }}">
+  <div class="form-group">
+    <label for="product_id">Produit :</label>
+    <select name="product_id" id="product_id">
+      <option value="">-- Choisir un produit --</option>
+      {% for p in produits %}
+      <option value="{{ p.product_id }}"
+        {% if pid == p.product_id|string %}selected{% endif %}>
+        {{ p.product_id }} — {{ p.name }}
+      </option>
+      {% endfor %}
+    </select>
+    <button type="submit">Rechercher</button>
+  </div>
+</form>
+
+{% if error %}
+  <div class="alert">{{ error }}</div>
+{% endif %}
+
+{% if resultats %}
+<p style="margin-bottom:1rem; color:#64748b;">
+  {{ resultats|length }} fournisseur(s) pour
+  <strong>{{ produit.name }}</strong> — tries par delai croissant.
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>Rang</th>
+      <th>Fournisseur</th>
+      <th>Pays</th>
+      <th>Delai (jours)</th>
+      <th>Prix unitaire</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for r in resultats %}
+    <tr {% if loop.first %}class="rank-1"{% endif %}>
+      <td>
+        {% if loop.first %}
+          <span class="badge badge-normal">1er</span>
+        {% else %}
+          {{ loop.index }}
+        {% endif %}
+      </td>
+      <td><strong>{{ r.fournisseur }}</strong></td>
+      <td>{{ r.pays }}</td>
+      <td>{{ r.delai_jours }} j</td>
+      <td>{{ "%.2f"|format(r.prix_unitaire) }} EUR</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% elif pid %}
+  <div class="empty">
+    <p>Aucun fournisseur trouve pour ce produit.</p>
+  </div>
+{% endif %}
+{% endblock %}

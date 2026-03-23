@@ -1,0 +1,201 @@
+/* ── Reset & base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background: #f4f6f9;
+  color: #1e293b;
+  min-height: 100vh;
+}
+
+/* ── Navbar ── */
+nav {
+  background: #1a3a5c;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  height: 56px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+
+nav .brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  letter-spacing: .3px;
+}
+
+nav a {
+  color: #94b8d4;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  font-size: .9rem;
+  transition: background .15s, color .15s;
+}
+
+nav a:hover, nav a.active {
+  background: #243f5c;
+  color: #fff;
+}
+
+/* ── Layout ── */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+h1 { font-size: 1.5rem; margin-bottom: 1.5rem; color: #1a3a5c; }
+h2 { font-size: 1.15rem; margin-bottom: 1rem; color: #1a3a5c; }
+
+/* ── Cards dashboard ── */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  border-left: 4px solid #1a3a5c;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+.card.critique { border-color: #dc2626; }
+.card.warning  { border-color: #f59e0b; }
+.card.ok       { border-color: #16a34a; }
+
+.card .value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1a3a5c;
+  line-height: 1;
+}
+
+.card.critique .value { color: #dc2626; }
+.card.warning  .value { color: #f59e0b; }
+.card.ok       .value { color: #16a34a; }
+
+.card .label { font-size: .85rem; color: #64748b; }
+
+/* ── Formulaire ── */
+.form-group {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.form-group label { font-weight: 500; white-space: nowrap; }
+
+select, input[type="number"], input[type="text"] {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  padding: .5rem .75rem;
+  font-size: .95rem;
+  outline: none;
+  background: #fff;
+  transition: border-color .15s;
+}
+
+select:focus, input:focus { border-color: #1a3a5c; }
+
+button[type="submit"] {
+  background: #1a3a5c;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: .5rem 1.25rem;
+  font-size: .95rem;
+  cursor: pointer;
+  transition: background .15s;
+}
+
+button[type="submit"]:hover { background: #243f5c; }
+
+/* ── Result card ── */
+.result-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  margin-bottom: 1.5rem;
+}
+
+.result-card dl {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: .5rem 1rem;
+}
+
+.result-card dt { font-weight: 600; color: #64748b; font-size: .9rem; }
+.result-card dd { color: #1e293b; }
+
+/* ── Table ── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  font-size: .9rem;
+}
+
+thead { background: #1a3a5c; color: #fff; }
+thead th { padding: .75rem 1rem; text-align: left; font-weight: 500; }
+tbody tr:nth-child(even) { background: #f8fafc; }
+tbody tr:hover { background: #eef2f7; }
+tbody td { padding: .65rem 1rem; border-bottom: 1px solid #e2e8f0; }
+
+/* ── Badges ── */
+.badge {
+  display: inline-block;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+  font-size: .78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badge-critique { background: #fee2e2; color: #dc2626; }
+.badge-bas      { background: #fef3c7; color: #d97706; }
+.badge-normal   { background: #dcfce7; color: #16a34a; }
+.badge-pending  { background: #fef3c7; color: #d97706; }
+.badge-confirmed{ background: #dbeafe; color: #2563eb; }
+.badge-delivered{ background: #dcfce7; color: #16a34a; }
+.badge-cancelled{ background: #f1f5f9; color: #64748b; }
+
+/* ── Alert / error ── */
+.alert {
+  background: #fee2e2;
+  color: #dc2626;
+  border-radius: 8px;
+  padding: .75rem 1rem;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+/* ── Empty state ── */
+.empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #94a3b8;
+}
+
+.empty .icon { font-size: 3rem; margin-bottom: .5rem; }
+
+/* ── Rang fournisseur ── */
+.rank-1 { background: #dcfce7; }

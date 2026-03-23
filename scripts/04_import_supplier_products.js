@@ -5,8 +5,11 @@
 // Usage : mongosh tp_stock scripts/04_import_supplier_products.js
 // =============================================================
 
-const supplierProducts = JSON.parse(fs.readFileSync("data/supplier_products.json", "utf8"));
-const suppliers        = JSON.parse(fs.readFileSync("data/suppliers.json",         "utf8"));
+// ⚠️ Modifie DATA_DIR si ton projet est ailleurs
+const DATA_DIR = "D:/Documents/Cours/bdd/tp-k/data";
+
+const supplierProducts = JSON.parse(fs.readFileSync(`${DATA_DIR}/supplier_products.json`, "utf8"));
+const suppliers        = JSON.parse(fs.readFileSync(`${DATA_DIR}/suppliers.json`,         "utf8"));
 
 // Index fournisseurs par supplier_id
 const supplierById = {};
@@ -32,7 +35,7 @@ const result = db.supplier_products.insertMany(documents);
 print(`✅ ${result.insertedIds ? Object.keys(result.insertedIds).length : 0} relations fournisseur-produit importées`);
 
 // La collection suppliers est importée telle quelle (pas de dénormalisation)
-const suppliersData = JSON.parse(fs.readFileSync("data/suppliers.json", "utf8"));
+const suppliersData = JSON.parse(fs.readFileSync(`${DATA_DIR}/suppliers.json`, "utf8"));
 const suppDocs = suppliersData.map(s => ({
   supplier_id:       NumberInt(s.supplier_id),
   name:              s.name,

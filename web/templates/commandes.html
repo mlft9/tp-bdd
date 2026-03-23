@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Commandes bloquees{% endblock %}
+
+{% block content %}
+<h1>Commandes bloquees — stock insuffisant</h1>
+
+{% if commandes %}
+<p style="margin-bottom:1rem; color:#64748b;">
+  {{ commandes|length }} commande(s) PENDING avec stock insuffisant.
+</p>
+<table>
+  <thead>
+    <tr>
+      <th>#Commande</th>
+      <th>Produit</th>
+      <th>Qte commandee</th>
+      <th>Stock disponible</th>
+      <th>Manque</th>
+      <th>Date commande</th>
+      <th>Livraison prevue</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for c in commandes %}
+    <tr>
+      <td>{{ c.order_id }}</td>
+      <td>{{ c.produit }}</td>
+      <td>{{ c.quantite_commandee }}</td>
+      <td><span class="badge badge-critique">{{ c.stock_disponible }}</span></td>
+      <td><strong style="color:#dc2626;">-{{ c.manque }}</strong></td>
+      <td>{{ c.date_commande }}</td>
+      <td>{{ c.livraison_prevue }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<div class="empty">
+  <div class="icon">✓</div>
+  <p>Aucune commande bloquee. Tous les stocks sont suffisants.</p>
+</div>
+{% endif %}
+{% endblock %}

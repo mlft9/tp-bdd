@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}Date de livraison{% endblock %}
+
+{% block content %}
+<h1>Date de livraison d'une commande</h1>
+
+<form method="get" action="{{ url_for('livraison') }}">
+  <div class="form-group">
+    <label for="order_id">Numero de commande :</label>
+    <input type="number" name="order_id" id="order_id"
+           min="1" placeholder="ex: 1"
+           value="{{ oid }}" style="width:120px;">
+    <button type="submit">Rechercher</button>
+  </div>
+</form>
+
+{% if error %}
+  <div class="alert">{{ error }}</div>
+{% endif %}
+
+{% if result %}
+<div class="result-card">
+  <dl>
+    <dt>Commande</dt>
+    <dd><strong>#{{ result.order_id }}</strong></dd>
+
+    <dt>Produit</dt>
+    <dd>{{ result.produit }}</dd>
+
+    <dt>Quantite</dt>
+    <dd>{{ result.quantite }}</dd>
+
+    <dt>Statut</dt>
+    <dd>
+      {% set s = result.statut %}
+      {% if s == "DELIVERED" %}
+        <span class="badge badge-delivered">Livree</span>
+      {% elif s == "PENDING" %}
+        <span class="badge badge-pending">En attente</span>
+      {% elif s == "CONFIRMED" %}
+        <span class="badge badge-confirmed">Confirmee</span>
+      {% else %}
+        <span class="badge badge-cancelled">{{ s }}</span>
+      {% endif %}
+    </dd>
+
+    <dt>Date de commande</dt>
+    <dd>{{ result.date_commande }}</dd>
+
+    <dt>Livraison prevue</dt>
+    <dd>{{ result.livraison_prevue }}</dd>
+
+    <dt>Livraison reelle</dt>
+    <dd>
+      {% if result.livraison_reelle %}
+        <strong style="color:#16a34a;">{{ result.livraison_reelle }}</strong>
+      {% else %}
+        <span style="color:#94a3b8;">En attente de livraison</span>
+      {% endif %}
+    </dd>
+
+    {% if result.fournisseur_plus_rapide is defined %}
+    <dt>Meilleur fournisseur</dt>
+    <dd>
+      {{ result.fournisseur_plus_rapide }}
+      ({{ result.pays_fournisseur }}) —
+      <strong>{{ result.delai_fournisseur_jours }} jour(s)</strong>
+    </dd>
+    {% endif %}
+  </dl>
+</div>
+{% endif %}
+{% endblock %}

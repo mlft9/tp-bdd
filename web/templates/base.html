@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Suivi des Stocks{% endblock %} — Projet C</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav>
+  <span class="brand">Suivi des Stocks</span>
+  <a href="{{ url_for('index') }}"
+     class="{% if request.endpoint == 'index' %}active{% endif %}">
+    Accueil
+  </a>
+  <a href="{{ url_for('stock') }}"
+     class="{% if request.endpoint == 'stock' %}active{% endif %}">
+    Etat du stock
+  </a>
+  <a href="{{ url_for('commandes') }}"
+     class="{% if request.endpoint == 'commandes' %}active{% endif %}">
+    Commandes bloquees
+  </a>
+  <a href="{{ url_for('fournisseurs') }}"
+     class="{% if request.endpoint == 'fournisseurs' %}active{% endif %}">
+    Delais fournisseurs
+  </a>
+  <a href="{{ url_for('livraison') }}"
+     class="{% if request.endpoint == 'livraison' %}active{% endif %}">
+    Date de livraison
+  </a>
+</nav>
+
+<div class="container">
+  {% block content %}{% endblock %}
+</div>
+
+</body>
+</html>
