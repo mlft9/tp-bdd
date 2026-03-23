@@ -4,7 +4,8 @@
       "Bash(python -c \":*)",
       "Bash(pip install:*)",
       "Bash(powershell -Command \"Get-Item ''D:\\\\Documents\\\\Cours\\\\bdd\\\\tp-k\\\\sujet\\\\Optimisation_BDD_NoSQL_-_Jour_2.pptx'' | Select-Object FullName, Length\")",
-      "Bash(powershell -Command \":*)"
+      "Bash(powershell -Command \":*)",
+      "Bash(python3 -c \":*)"
     ]
   }
 }
