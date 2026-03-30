@@ -1,0 +1,71 @@
+Structure du PowerPoint — Projet C : Suivi des stocks
+~15 slides, environ 10-15 min de présentation
+
+Slide 1 — Titre
+Nom du projet : Système de suivi des stocks
+Noms : Kelvya & Maxime
+Cours / Date
+Slide 2 — Présentation du sujet
+Contexte : gérer stocks, fournisseurs, commandes
+Les 4 fonctionnalités à implémenter
+Les données disponibles (50 produits, 20 fournisseurs, 450 commandes)
+Slide 3 — Choix technologiques
+MongoDB (NoSQL, document, CP selon CAP)
+PyMongo (pilote natif Python)
+Flask (front web)
+Pourquoi MongoDB plutôt que SQL pour ce cas
+Slide 4 — Architecture des collections
+Schéma visuel des 4 collections : products, suppliers, supplier_products, orders
+Montrer les liens entre elles (product_id, supplier_id)
+Slide 5 — Dénormalisation (choix clé)
+Avant : 5 tables séparées (relationnel)
+Après : 4 collections avec données embarquées
+Tableau : ce qu'on a embarqué + pourquoi
+Collection	Données embarquées	Bénéfice
+products	stock (1:1)	0 jointure pour l'état du stock
+orders	product_name, product_unit	snapshot historique
+supplier_products	supplier_name, country	évite $lookup sur fournisseurs
+Slide 6 — Validation des documents ($jsonSchema)
+Exemple du schéma de validation sur products
+Montrer 2-3 règles (bsonType, enum, minimum)
+Pourquoi c'est utile
+Slide 7 — Les Vues MongoDB
+3 vues créées : vue_stock_status, vue_commandes_en_attente, vue_delais_fournisseurs
+Exemple de code d'une vue
+Ce qu'elles simplifient
+Slide 8 — Fonctionnalité 1 : État du stock
+Pipeline d'agrégation etat_stock(product_id)
+$match → $project avec $switch (NORMAL / BAS / CRITIQUE)
+Capture de la démo
+Slide 9 — Fonctionnalité 2 : Commandes bloquées
+Pipeline commandes_bloquees()
+$match PENDING → $lookup → $expr $gt
+Capture de la démo
+Slide 10 — Fonctionnalité 3 : Délais fournisseurs
+Pipeline delais_fournisseur(product_id)
+Sans jointure grâce à la dénormalisation
+Capture de la démo
+Slide 11 — Fonctionnalité 4 : Date de livraison
+Logique date_livraison(order_id)
+Livraison réelle si DELIVERED, sinon meilleur fournisseur disponible
+Capture de la démo
+Slide 12 — Index & Optimisation
+Index créés (tableau : collection / champ / type)
+Capture explain() : COLLSCAN → IXSCAN
+Impact sur les performances
+Slide 13 — Front Web Flask
+Architecture : Flask + PyMongo + HTML/CSS
+Screenshots des 4 pages fonctionnelles
+Comment lancer : python web/app.py
+Slide 14 — Démonstration live
+(slide vide ou avec QR code / URL locale)
+Sert de support pendant la démo
+Slide 15 — Conclusion
+Ce qu'on a appris (NoSQL vs SQL, dénormalisation, index)
+Limites du projet (pas de mise à jour temps réel, données mockées)
+Ce qu'on ferait en plus avec plus de temps
+Conseils :
+
+Mettre du code uniquement sur les slides 8-12, et en extraire juste l'essentiel
+Les slides visuelles (schéma archi, tableau dénormalisation) comptent autant que le code
+Prévoir la démo Flask en live sur la slide 14
