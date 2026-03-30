@@ -199,3 +199,27 @@ tbody td { padding: .65rem 1rem; border-bottom: 1px solid #e2e8f0; }
 
 /* ── Rang fournisseur ── */
 .rank-1 { background: #dcfce7; }
+
+/* ── Alertes flash ── */
+.alert-success {
+  background: #dcfce7;
+  color: #15803d;
+  border-radius: 8px;
+  padding: .75rem 1rem;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+/* ── Bouton confirmer (tableau) ── */
+.btn-confirm {
+  background: #16a34a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: .35rem .85rem;
+  font-size: .85rem;
+  cursor: pointer;
+  transition: background .15s;
+  white-space: nowrap;
+}
+.btn-confirm:hover { background: #15803d; }

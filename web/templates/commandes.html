@@ -18,6 +18,7 @@
       <th>Manque</th>
       <th>Date commande</th>
       <th>Livraison prevue</th>
+      <th>Action</th>
     </tr>
   </thead>
   <tbody>
@@ -30,6 +31,12 @@
       <td><strong style="color:#dc2626;">-{{ c.manque }}</strong></td>
       <td>{{ c.date_commande }}</td>
       <td>{{ c.livraison_prevue }}</td>
+      <td>
+        <form method="post" action="{{ url_for('commandes_update_statut', order_id=c.order_id) }}">
+          <input type="hidden" name="statut" value="CONFIRMED">
+          <button type="submit" class="btn-confirm">Confirmer</button>
+        </form>
+      </td>
     </tr>
     {% endfor %}
   </tbody>

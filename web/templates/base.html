@@ -30,9 +30,18 @@
      class="{% if request.endpoint == 'livraison' %}active{% endif %}">
     Date de livraison
   </a>
+  <a href="{{ url_for('commandes_nouvelle') }}"
+     class="{% if request.endpoint == 'commandes_nouvelle' %}active{% endif %}" style="margin-left:auto;">
+    + Nouvelle commande
+  </a>
 </nav>
 
 <div class="container">
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <div class="alert alert-{{ category }}">{{ message }}</div>
+    {% endfor %}
+  {% endwith %}
   {% block content %}{% endblock %}
 </div>
 
