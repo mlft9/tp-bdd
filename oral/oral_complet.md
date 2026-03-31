@@ -36,13 +36,13 @@
 
 ## Slide 4 — Architecture des collections
 
-**M :** On a structuré la base en 4 collections : `products`, `suppliers`, `supplier_products`, et `orders`. Les liens entre elles se font via des `product_id` et `supplier_id`. C'est une structure proche du relationnel, mais avec des ajustements importants grâce à la dénormalisation.
+**K :** On a structuré la base en 4 collections : `products`, `suppliers`, `supplier_products`, et `orders`. Les liens entre elles se font via des `product_id` et `supplier_id`. C'est une structure proche du relationnel, mais avec des ajustements importants grâce à la dénormalisation.
 
 ---
 
 ## Slide 5 — Dénormalisation
 
-**K :** C'est le choix central du projet. En SQL, on aurait eu 5 tables séparées avec des jointures partout. Là, on a fusionné certaines données directement dans les documents.
+**M :** C'est le choix central du projet. En SQL, on aurait eu 5 tables séparées avec des jointures partout. Là, on a fusionné certaines données directement dans les documents.
 
 Trois décisions clés :
 
