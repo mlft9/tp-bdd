@@ -55,5 +55,15 @@
     </dd>
   </dl>
 </div>
+
+<div class="result-card">
+  <h2>Mettre a jour le stock</h2>
+  <form method="post" action="{{ url_for('stock_update') }}" class="form-group">
+    <input type="hidden" name="product_id" value="{{ result.product_id }}">
+    <label for="quantite">Nouvelle quantite :</label>
+    <input type="number" name="quantite" id="quantite" min="0" value="{{ result.quantite }}" required>
+    <button type="submit">Enregistrer</button>
+  </form>
+</div>
 {% endif %}
 {% endblock %}

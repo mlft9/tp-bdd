@@ -85,3 +85,4 @@ db.createCollection("orders");
 print("✓ Collection 'orders' créée");
 
 print("\n✅ Toutes les collections sont prêtes. Lance 02, 03, 04 pour importer les données.");
+

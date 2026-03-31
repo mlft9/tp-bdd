@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Nouvelle commande{% endblock %}
+
+{% block content %}
+<h1>Creer une nouvelle commande</h1>
+
+<div class="result-card" style="max-width:500px;">
+  <form method="post" action="{{ url_for('commandes_nouvelle') }}">
+    <div class="form-group" style="flex-direction:column; align-items:flex-start; gap:1rem;">
+
+      <div style="width:100%;">
+        <label for="product_id">Produit :</label><br><br>
+        <select name="product_id" id="product_id" required style="width:100%;">
+          <option value="">-- Choisir un produit --</option>
+          {% for p in produits %}
+          <option value="{{ p.product_id }}">
+            {{ p.product_id }} — {{ p.name }}
+            (stock : {{ p.stock.quantity }})
+          </option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div style="width:100%;">
+        <label for="quantity_ordered">Quantite commandee :</label><br><br>
+        <input type="number" name="quantity_ordered" id="quantity_ordered"
+               min="1" placeholder="ex: 10" required style="width:100%;">
+      </div>
+
+      <button type="submit" style="width:100%;">Creer la commande</button>
+    </div>
+  </form>
+</div>
+
+<p style="margin-top:1rem; color:#64748b; font-size:.9rem;">
+  La commande sera creee avec le statut <strong>PENDING</strong>
+  et une livraison prevue dans 7 jours.
+</p>
+{% endblock %}
