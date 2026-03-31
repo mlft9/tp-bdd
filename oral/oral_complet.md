@@ -91,7 +91,7 @@ Le pipeline fait un `$match` sur l'id, puis un `$project` avec un `$switch` : si
 **K :** La fonctionnalité 2 liste toutes les commandes PENDING dont la quantité commandée dépasse le stock disponible.
 
 Le pipeline : `$match` sur le statut PENDING, puis `$lookup` vers `products`, puis un `$match` avec `$expr $gt` pour comparer `quantity_ordered` au `stock.quantity`.
-
+ 
 **M :** C'est la seule fonctionnalité qui nécessite encore un `$lookup` — parce qu'on n'a pas voulu embarquer le stock dans `orders` pour ne pas dupliquer une donnée qui change souvent.
 
 *[démo ou capture]*
